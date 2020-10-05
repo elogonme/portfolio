@@ -8,12 +8,101 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <title>Portfolio - Eldar Humbatov!</title>
   </head>
   <body>
-    <h1>Portfolio - Eldar Humbatov!</h1>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e0e0e0;">
+      <!-- After add Icon image before name -->
+      <span class="navbar-brand mb-0 h1">Eldar Humbatov</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Background Image -->
+    <div class="hero"></div> 
+    <main>
+      <!-- Main Body goes in Container -->
+      <div class="container main">
+        <!-- Card content-->
+        <div class="card mt-2 col-lg-12 col-xs-12 shadow">
+          <div class="card-body">
+            <h2 class="card-title border-bottom pb-2">Portfolio</h2>
+            <div class="card-deck">
+              <div class="row row-cols-1 row-cols-md-2">
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <img src="assets/img/project1.jpg" href="https://elogonme.github.io/travel-site/" class="card-img-top w-50 float-left mr-4 btn" alt="Project one image">
+                      <h5 class="card-title">Travel Website</h5>
+                      <p class="card-text">Travel company website i made to apply my HTML/CSS/JS skills, improve knowledge, practice coding and achieve goals. GitHub, Node.js, NPM, Object-oriented JavaScript, ES6, webpack</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <img src="assets/img/project2.jpg" class="card-img-top w-50 float-left mr-4" alt="Project two image">
+                      <h5 class="card-title">ROVCalc</h5>
+                      <p class="card-text">ROV Dive Time Calculator - Web App created for ROV Team offshore to use during daily activities to calculate duration of Dive. Using HTML/CSS/JS</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <img src="assets/img/project3.jpg" class="card-img-top w-50 float-left mr-4" alt="Project three image">
+                      <h5 class="card-title">Questionnaire</h5>
+                      <p class="card-text">Questionnaire form UI to collect and display personal info of employees - created using Typescript / Angular Reactive forms</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col mb-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <img src="assets/img/project4.jpg" class="card-img-top w-50 float-left mr-4" alt="Project four image">
+                      <h5 class="card-title">Shopper App</h5>
+                      <p class="card-text">Shopper App - Personal Shopping List Web App for convenient grocery shopping - My personal project implemented using Typescript / Angular. Front End UI using Angular Material / Forms. Backend server implemented using Angular/NestJS and PostgresSQL database.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>  
+              
+            </div>
+          </div>
+        </div>   
+      </div>
+    </main> 
+    <!-- Footer -->
+    <footer class="bg-secondary fixed-bottom">
+
+      <!-- Copyright -->
+      <div class="text-light text-center py-3">© 2020 Copyright:
+        <a href="https://github.com/elogonme" class="text-white">Eldar Humbatov</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
