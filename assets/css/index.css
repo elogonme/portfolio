@@ -1,10 +1,10 @@
-/* Set background image and some opacity to make it less visible - from CSS Tricks */
 .h1 {
     font-size: 1.5rem;
     color: teal!important;
     padding: 0;
 }
 
+/* Set background image and some opacity to make it less visible - from CSS Tricks */
 .hero::after {
     content: "";
     background: url("../img/code-bg.jpg");
@@ -16,8 +16,6 @@
     position: absolute;
     z-index: -1;   
   }
-
-  
 
   .card-title {
       color: teal;
