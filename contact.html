@@ -8,14 +8,72 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <title>Contact Me</title>
   </head>
   <body>
-    <h1>Contact Me</h1>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e0e0e0;">
+      <!-- After add Icon image before name -->
+      <span class="navbar-brand mb-0 h1">Eldar Humbatov</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Background Image -->
+    <div class="hero"></div>
+    <main>
+      <!-- Main Body goes in Container -->
+      <div class="container main">
+        <!-- Card content-->
+        <div class="card mt-4 col-lg-8 col-xs-12 shadow">
+          <div class="card-body">
+            <h2 class="card-title border-bottom pb-2">Contact</h2>
+          </div>
+          <form class="ml-4">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="name" class="form-control col-md-9" id="name" aria-describedby="Name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control col-md-9" id="email" aria-describedby="Email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control col-md-9" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-info mb-4">Submit</button>
+          </form>
+        </div>   
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-secondary fixed-bottom">
 
-    <!-- Optional JavaScript -->
+      <!-- Copyright -->
+      <div class="text-light text-center py-2">© 2020 Copyright:
+        <a href="https://github.com/elogonme" class="text-white">Eldar Humbatov</a>
+      </div>
+    
+    </footer>
+
+    <!-- Scripts required to allow some Bootstrap components to work. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
