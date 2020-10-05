@@ -8,12 +8,81 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <title>Portfolio - Eldar Humbatov!</title>
   </head>
   <body>
-    <h1>Portfolio - Eldar Humbatov!</h1>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e0e0e0;">
+      <!-- After add Icon image before name -->
+      <span class="navbar-brand mb-0 h1">Eldar Humbatov</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Background Image -->
+    <div class="hero"></div> 
+    <main>
+      <!-- Main Body goes in Container -->
+      <div class="container main">
+        <!-- Card content-->
+        <div class="card mt-4 col-lg-8 col-xs-12 shadow">
+          <div class="card-body">
+            <h2 class="card-title border-bottom pb-2">Portfolio</h2>
+            <div class="card-deck">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </main> 
+    <!-- Footer -->
+    <footer class="bg-secondary fixed-bottom">
+
+      <!-- Copyright -->
+      <div class="text-light text-center py-3">© 2020 Copyright:
+        <a href="https://github.com/elogonme" class="text-white">Eldar Humbatov</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
