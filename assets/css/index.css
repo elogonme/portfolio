@@ -16,4 +16,9 @@
     z-index: -1;   
   }
 
+  /* Icon next to name in navbar */
+  .el-icon {
+    height: 32px;
+    color: #fff;
+  }
   
