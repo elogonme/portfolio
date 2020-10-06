@@ -14,11 +14,28 @@
     right: 0;
     position: absolute;
     z-index: -1;   
-  }
+}
 
-  /* Icon next to name in navbar */
-  .el-icon {
+/* Icon next to name in navbar */
+.el-icon {
     height: 32px;
     color: #fff;
-  }
+}
+
+/* Zoom effect transition on hoover */
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.zoom-less {
+    transition: transform .2s;
+}
+
+.zoom-less:hover {
+    transform: scale(1.2);
+}
   
