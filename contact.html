@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -16,7 +15,7 @@
   <body>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-      <!-- After add Icon image before name -->
+      <!-- To do: add Icon image before name -->
       <span class="navbar-brand mb-0 h1 text-white">Eldar Humbatov</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,25 +40,35 @@
       <!-- Main Body goes in Container -->
       <div class="container main">
         <!-- Card content-->
-        <div class="card mt-4 col-lg-8 col-xs-12 shadow">
+        <div class="card mt-4 col-lg-7 shadow">
           <div class="card-body">
             <h2 class="card-title border-bottom pb-2 text-info">Contact</h2>
           </div>
-          <form class="ml-4">
+          <!-- Contact Form -->
+          <form class="ml-4 mr-4">
             <div class="form-group">
-              <label for="name">Name</label>
-              <input type="name" class="form-control col-md-9" id="name" aria-describedby="Name" placeholder="Name">
+                <label for="name">Name</label>
+                <input type="name" class="form-control col-md-12" id="name" aria-describedby="Name" placeholder="Name">
             </div>
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control col-md-9" id="email" aria-describedby="Email" placeholder="Email">
+                <label for="email">Email</label>
+                <input type="email" class="form-control col-md-12" id="email" aria-describedby="Email" placeholder="Email">
             </div>
             <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control col-md-9" id="message" rows="3" placeholder="Message"></textarea>
+                <label for="message">Message</label>
+                <textarea class="form-control col-md-12" id="message" rows="3" placeholder="Message"></textarea>
             </div>
-            
             <button type="submit" class="btn btn-info mb-4">Submit</button>
+            <!-- Social Links Icons -->
+            <a href="https://github.com/elogonme/" target="_blank" class="text-secondary float-right mr-4 mt-1">
+              <i class="fab fab fa-github fa-2x px-2"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/eldarhumbatov/" target="_blank" class="text-secondary float-right mr-4 mt-1">
+              <i class="fab fa-linkedin-in fa-2x px-2"></i>
+            </a>
+            <a href="mailto:eldarha@gmail.com" target="_blank" class="text-secondary float-right mr-4 mt-1">
+              <i class="fas fa-at fa-2x px-2"></i>
+            </a>
           </form>
         </div>   
       </div>
