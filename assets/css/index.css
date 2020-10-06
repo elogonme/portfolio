@@ -38,4 +38,18 @@
 .zoom-less:hover {
     transform: scale(1.2);
 }
+
+/* Underline effect transition on hoover of nav links */
+.underline {
+    transition: transform .2s;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* Remove underline from footer icon links on hover */
+footer a:link {
+    text-decoration: none;
+}
   
