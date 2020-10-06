@@ -2,7 +2,7 @@
 
 ## Web Developer - Eldar Humbatov 
 
-![Eldar Humbatov](eldar.png)
+![Eldar Humbatov](assets/img/eldar.png)
 
 Student at [UofT SCS Coding Boot Camp](https://bootcamp.learn.utoronto.ca/coding/landing-ftpt/)
 ![UofT](https://cdn.utorontobootcamp.com/wp-content/themes/UOFT-V3.5/media/img/school_logo.svg)
