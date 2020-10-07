@@ -39,6 +39,14 @@
     transform: scale(1.2);
 }
 
+.zoom-xs {
+    transition: transform .2s;
+}
+
+.zoom-xs:hover {
+    transform: scale(1.05);
+}
+
 /* Underline effect transition on hoover of nav links */
 .underline {
     transition: transform .2s;
@@ -52,4 +60,4 @@
 footer a:link {
     text-decoration: none;
 }
-  
+
