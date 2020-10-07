@@ -61,3 +61,10 @@ footer a:link {
     text-decoration: none;
 }
 
+/* For very small screens less than 400px reduce footer text size */
+@media screen and (max-width: 420px) {
+    
+  .footer-text {
+    font-size: 0.8rem;
+  }
+}
