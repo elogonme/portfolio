@@ -52,21 +52,26 @@
           <div class="text-center display-6">E-mail me at 
             <a href="mailto:eldarha@gmail.com" target="_blank" class="text-info font-weight-bold">eldarha@gmail.com</a> 
             or contact using form below</div>
+
           <!-- Contact Form -->
-          <form class="ml-4 mr-4">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control col-md-12" id="name" aria-describedby="name" placeholder="Name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control col-md-12" id="email" aria-describedby="email" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control col-md-12" id="message" rows="3" placeholder="Message"></textarea>
-            </div>
+          <!-- Sending for to Formspree account after submit -->
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqpjoga" method="post" class="ml-4 mr-4">
+            <fieldset id="fs-frm-inputs">
+              <div class="form-group">
+                  <label for="full-name">Name</label>
+                  <input type="text" name="name" class="form-control col-md-12" id="full-name" aria-describedby="name" placeholder="First and Last name" required="">
+              </div>
+              <div class="form-group">
+                  <label for="email-address">Email</label>
+                  <input type="email" name="_replyto" class="form-control col-md-12" id="email-address" aria-describedby="email" placeholder="Email" required="">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" class="form-control col-md-12" id="message" rows="3" placeholder="Message" required=""></textarea>
+              </div>
+            </fieldset>
             <button type="submit" class="btn btn-info mb-4">Submit</button>
+          
             <!-- Social Links Icons -->
             <a href="https://github.com/elogonme/" target="_blank" title="GitHub" class="text-secondary float-right mr-sm-4 mt-1">
               <i class="fab fab fa-github fa-2x px-2 zoom"></i>
