@@ -1,19 +1,10 @@
+body {
+    padding-bottom: 50px;
+    background: url("../img/code-bg.jpg");
+}
 .h1 {
     font-size: 1.5rem;
     padding: 0;
-}
-
-/* Set background image and some opacity to make it less visible - from CSS Tricks */
-.hero::after {
-    content: "";
-    background: url("../img/code-bg.jpg");
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
 }
 
 /* Icon next to name in navbar */
@@ -65,6 +56,10 @@ footer a:link {
 @media screen and (max-width: 420px) {
     
   .footer-text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .card-img-top {
+      width: 80%!important;
   }
 }
