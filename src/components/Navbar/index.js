@@ -6,10 +6,10 @@ import elIcon from "../../images/el-icon.png"
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-info" title="major navigation">
+    <nav className="navbar navbar-expand navbar-dark bg-info" title="major navigation">
       <img src={elIcon} width="32" height="32" alt="el icon" className="el-icon mx-2" />
-      <Link href="index.html" className="navbar-brand mb-0 h1 zoom-xs animate__animated animate__pulse" to="/">
-        Eldar Humbatov
+      <Link href="/" className="navbar-brand mb-0 h1 zoom-xs animate__animated animate__pulse" to="/">
+        <span className="d-none d-sm-block">Eldar Humbatov</span>
       </Link>
       
       <div className="collapse navbar-collapse" id="navbarSupportedContent">

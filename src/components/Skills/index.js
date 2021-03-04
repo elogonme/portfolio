@@ -9,7 +9,7 @@ function Skills() {
   ];
 
   return (
-    <div className="col-lg-4">
+    <div className="col-lg-4 text-center">
       <h3 className="text-center text-info mt-4 animate__animated animate__fadeIn">
         <span className="text-secondary"> Skills</span>
       </h3>
