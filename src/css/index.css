@@ -23,7 +23,7 @@ body {
 }
 
 .zoom-less {
-    transition: transform .2s;
+    transition: all 0.50s linear;
 }
 
 .zoom-less:hover {

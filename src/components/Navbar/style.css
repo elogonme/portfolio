@@ -1,3 +1,34 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+
+.react-toggle--checked .react-toggle-track {
+  background-color: #4D4D4D;
+}
+.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #d8d8d8;
+}
+
+.react-toggle-track {
+  width: 46px;
+  height: 18px;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #d8d8d8;
+}
+
+.DarkToggle {
+  padding-top: 10px;
+} 
+
+.react-toggle-thumb {
+  top: 10px;
+  left: 1px;
+  width: 18px;
+  height: 18px;
+  background-color: #b4b4b4;
+}
+
+.react-toggle-track-check, .react-toggle-track-x{
+  top: 5px;
+}
