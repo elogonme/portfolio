@@ -4,7 +4,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="bg-secondary fixed-bottom">
+    <footer className="bg-secondary fixed-bottom pb-1">
       <div className="text-light text-sm-center py-2 px-2 footer-text">
         <img src={logo} className="react-logo float-left" alt="logo" />
         <span className="float-left">Built with React</span>
