@@ -4,7 +4,7 @@ function Contact() {
 
   return (
     <div className="container main">
-        <div className="card mt-4 col-lg-7 bg-light shadow animate__animated animate__zoomIn">
+        <div className="card mt-4 col-lg-7 shadow animate__animated animate__zoomIn">
           <div className="card-body pb-0">
             <h2 className="card-title border-bottom pb-2 text-info"><i className="far fa-edit mr-2 text-secondary"></i>Contact</h2>
           </div>

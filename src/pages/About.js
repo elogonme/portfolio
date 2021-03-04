@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="container main">
       <div className="row">
-        <div className="card bg-light mt-4 col-lg-8 col-xs-12 shadow">
+        <div className="card mt-4 col-lg-8 col-xs-12 shadow">
           <div className="card-body">
             <h2 className="card-title border-bottom pb-2 text-info animate__animated animate__fadeIn"><i className="far fa-address-card mr-2 text-secondary"></i>About Me:
               <span className="text-secondary"> Eldar Humbatov</span>
@@ -23,17 +23,17 @@ function About() {
               cutting-edge product sharpening my skills. I am excited about developer’s role as it always keeps you challenged and gets 
               you constantly learn new technologies and solutions.</p>
           </div>
-          <div class="card-footer bg-transparent d-flex flex-column flex-sm-row justify-content-around">
-            <a href="mailto:eldarha@gmail.com" target="_blank" rel="noreferrer" title="E-mail" class="text-info col-xs-12">
-              <i class="far fa-envelope text-secondary mr-1"></i>
+          <div className="card-footer bg-transparent d-flex flex-column flex-sm-row justify-content-around">
+            <a href="mailto:eldarha@gmail.com" target="_blank" rel="noreferrer" title="E-mail" className="text-info col-xs-12">
+              <i className="far fa-envelope text-secondary mr-1"></i>
               eldarha@gmail.com
             </a>
-            <a href="tel:+1-416-823-4666" class="text-info col-xs-12">
-              <i class="fas fa-phone-square text-secondary mr-1"></i>
+            <a href="tel:+1-416-823-4666" className="text-info col-xs-12">
+              <i className="fas fa-phone-square text-secondary mr-1"></i>
               +1-416-823-4666
             </a>
-            <a href={process.env.PUBLIC_URL +"/assets/doc/EldarHumbatov_Resume.pdf"} target="_blank" rel="noreferrer" class="text-info col-xs-12">
-              <i class="far fa-file-alt text-secondary mr-1"></i>
+            <a href={process.env.PUBLIC_URL +"/assets/doc/EldarHumbatov_Resume.pdf"} target="_blank" rel="noreferrer" className="text-info col-xs-12">
+              <i className="far fa-file-alt text-secondary mr-1"></i>
               Resume
             </a>
 

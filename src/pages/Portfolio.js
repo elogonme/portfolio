@@ -5,7 +5,7 @@ import projects from './projects.js';
 function Portfolio() {
     return (
       <div className="container main">
-        <div className="card mt-2 col-lg-12 col-xs-12 bg-light shadow">
+        <div className="card mt-2 col-lg-12 col-xs-12 shadow">
           <div className="card-body pt-2">
             <h2 className="card-title border-bottom pb-2 text-info">
               <i className="fas fa-briefcase mr-2 text-secondary"></i>
