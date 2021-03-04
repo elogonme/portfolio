@@ -6,7 +6,9 @@ import dark from '../images/giphy.gif';
 function About(props) {
   const [face, setFace] = useState(light);
   useEffect(() => {
-    setFace(toggleFace())
+    setFace(toggleFace());
+    return
+    // eslint-disable-next-line
   }, [props.theme]);
 
   function toggleFace() {

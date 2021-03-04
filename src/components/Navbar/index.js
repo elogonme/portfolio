@@ -3,7 +3,8 @@ import { NavLink, Link } from "react-router-dom";
 import Toggle from "react-toggle";
 import "react-toggle/style.css"
 import "./style.css";
-import elIcon from "../../images/el-icon.png"
+import elIcon from "../../images/el-icon.png";
+import Arrow from '../Arrow';
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function Navbar(props) {
@@ -15,7 +16,9 @@ function Navbar(props) {
       </Link>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      
         <ul className="navbar-nav ml-auto float-right">
+        <div  className="mt-2 pt-1 mr-4"><Arrow /></div>
         <Toggle
             className="DarkToggle"
             icons={{ checked: "☾", unchecked: "☼" }}

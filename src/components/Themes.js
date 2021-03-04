@@ -12,7 +12,8 @@ export const lightTheme = {
     cardBackground: '#f5f5f5',
     navColor: '#17A2B8',
     formInputColor: '#fff',
-    userFace: `url(${userLight})`
+    userFace: `url(${userLight})`,
+    borderColor: 'rgba(0,0,0,.125)'
 }
 export const darkTheme = {
     body: '#363537',
@@ -22,5 +23,6 @@ export const darkTheme = {
     cardBackground: '#363537',
     navColor: '#363537',
     formInputColor: '#343a40',
-    userFace: `url(${userDark})`
+    userFace: `url(${userDark})`,
+    borderColor: '#4d4d4d'
 }
