@@ -21,7 +21,7 @@ const projects = [
         title: "Weather Dashboard",
         url: "https://elogonme.github.io/weather-dashboard/",
         image: "/assets/img/project2.jpg",
-        repoUrl: "https://elogonme.github.io/weather-dashboard/",
+        repoUrl: "https://github.com/elogonme/weather-dashboard",
         description: `A simple weather dashboard web app which will get and show weather outlook 
             for multiple cities to help plan a trip. App uses the OpenWeather API to retrieve weather data 
             for cities. HTTP requests are implemented with use of AJAX, JSON to get data from third-party server-side API.`
@@ -40,7 +40,7 @@ const projects = [
         title: "Travel Website",
         url: "https://elogonme.github.io/travel-site/",
         image: "/assets/img/project4.jpg",
-        repoUrl: "https://elogonme.github.io/travel-site/",
+        repoUrl: "https://github.com/elogonme/travel-site",
         description: `Travel company website i made to apply my HTML/CSS/JS skills, improve knowledge, 
         practice coding and achieve goals. GitHub, Node.js, NPM, Object-oriented JavaScript, ES6, webpack`
     },
@@ -65,7 +65,7 @@ const projects = [
         title: "Lighter",
         url: "https://lifx-lighter.herokuapp.com/",
         image: "/assets/img/project9.jpg",
-        repoUrl: "https://elogonme.github.io/travel-site/",
+        repoUrl: "https://github.com/elogonme/lighter",
         description: `is the app to control LIFX light strip remotely over internet. 
             During 2020 COVID pandemic I was stuck in self isolation quarantine in hotel and it 
             happened over the New Years Eve. To have some kind of interaction and celebration with my family and friends 
