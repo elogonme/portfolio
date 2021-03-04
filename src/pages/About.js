@@ -23,6 +23,21 @@ function About() {
               cutting-edge product sharpening my skills. I am excited about developer’s role as it always keeps you challenged and gets 
               you constantly learn new technologies and solutions.</p>
           </div>
+          <div class="card-footer bg-transparent d-flex flex-column flex-sm-row justify-content-around">
+            <a href="mailto:eldarha@gmail.com" target="_blank" rel="noreferrer" title="E-mail" class="text-info col-xs-12">
+              <i class="far fa-envelope text-secondary mr-1"></i>
+              eldarha@gmail.com
+            </a>
+            <a href="tel:+1-416-823-4666" class="text-info col-xs-12">
+              <i class="fas fa-phone-square text-secondary mr-1"></i>
+              +1-416-823-4666
+            </a>
+            <a href={process.env.PUBLIC_URL +"/assets/doc/EldarHumbatov_Resume.pdf"} target="_blank" rel="noreferrer" class="text-info col-xs-12">
+              <i class="far fa-file-alt text-secondary mr-1"></i>
+              Resume
+            </a>
+
+          </div>
         </div>
         <Skills />
       </div>
