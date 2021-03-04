@@ -34,7 +34,7 @@ This source code is available to everyone under the standard ![License: MIT](htt
 For any questions use contacts below:  
         :construction_worker: Developer: Eldar Humbatov  
         :email: Email: [elogon@gmail.com](mailto:elogon@gmail.com)  
-        :boom: GitHub: [https://github.com/elogonme](https://github.com/elogonme)
+        :boom: GitHub: [https://github.com/elogonme](https://github.com/elogonme)  
         :star: LinkedIn: [https://www.linkedin.com/in/eldarhumbatov/](https://www.linkedin.com/in/eldarhumbatov/)
 
 Graduate of [UofT SCS Coding Boot Camp](https://bootcamp.learn.utoronto.ca/coding/landing-ftpt/)
