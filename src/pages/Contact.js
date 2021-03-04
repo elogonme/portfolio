@@ -10,7 +10,7 @@ function Contact() {
           </div>
           <div className="text-center display-6">E-mail me at 
             <a href="mailto:eldarha@gmail.com" target="_blank" rel="noreferrer" 
-              className="text-info font-weight-bold">eldarha@gmail.com</a> 
+              className="text-info font-weight-bold"> eldarha@gmail.com </a> 
             or contact using form below</div>
 
           <form id="fs-frm" name="simple-contact-form" acceptCharset="utf-8" 
