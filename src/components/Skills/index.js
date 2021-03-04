@@ -15,7 +15,7 @@ function Skills() {
       </h3>
       {skills.map(skill => 
         <img src={`${process.env.PUBLIC_URL}/assets/img/logos/${skill}.png`} 
-        alt={skill} width="70px" className="logo mx-1 mt-2 animate__animated animate__zoomIn" title={skill} />
+        alt={skill} width="70px" className="logo mx-1 mt-2 animate__animated animate__zoomIn" title={skill} key={skill}/>
       )}
     </div>
   );

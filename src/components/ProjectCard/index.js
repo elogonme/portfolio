@@ -3,7 +3,6 @@ import "./style.css";
 
 function ProjectCard(props) {
   const { title, url, image, repoUrl, description } = props;
-  console.log('props: ', props);
   return (
     <div className="col mb-0">
       <div className="card-body">
