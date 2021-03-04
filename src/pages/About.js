@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Skills from "../components/Skills";
+import light from '../images/eldar.png';
+import dark from '../images/giphy.gif';
 
-function About() {
+function About(props) {
+  const [face, setFace] = useState(light);
+  useEffect(() => {
+    setFace(toggleFace())
+  }, [props.theme]);
+
+  function toggleFace() {
+    if (props.theme === 'dark') setTimeout(() => setFace(light), 1000);
+    
+    return props.theme === 'light' ? light : dark
+  }
   return (
     <div className="container main">
       <div className="row">
@@ -10,7 +22,8 @@ function About() {
             <h2 className="card-title border-bottom pb-2 text-info animate__animated animate__fadeIn"><i className="far fa-address-card mr-2 text-secondary"></i>About Me:
               <span className="text-secondary"> Eldar Humbatov</span>
             </h2>
-            <img src={process.env.PUBLIC_URL + '/assets/img/eldar.png'} width="230" height="230" className="card-img-left mx-2 float-sm-left img-fluid mx-auto d-block animate__animated animate__zoomIn" 
+            <img src={face} width="230" height="230" 
+            className="card-img-left mx-2 float-sm-left img-fluid mx-auto d-block animate__animated animate__zoomIn face" 
               alt="Eldar Humbattov" />
             <p className="card-text animate__animated animate__fadeIn">I am Full Stack Developer with an engineering 
               background and extensive skills in coding, electronics 
