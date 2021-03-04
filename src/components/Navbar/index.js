@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./style.css";
 import elIcon from "../../images/el-icon.png"
 
@@ -15,29 +15,24 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto float-right">
           <li className="nav-item">
-            <Link to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+            <NavLink to="/contact"
+              className="nav-link" activeClassName="active"> 
                 Contact
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link 
+            <NavLink 
               to="/portfolio"
-              className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-            >
+              className="nav-link" activeClassName="active" >
               Portfolio
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link 
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link"
-                  : "nav-link"
-              }>
+            <NavLink 
+              to="/about"
+                className="nav-link" activeClassName="active" >
                 About
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>
