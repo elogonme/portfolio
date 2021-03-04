@@ -1,0 +1,69 @@
+body {
+    padding-bottom: 50px;
+    background: url("../img/code-bg.jpg");
+}
+.h1 {
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+/* Icon next to name in navbar */
+.el-icon {
+    height: 32px;
+    color: #fff;
+}
+
+/* Zoom effect transition on hoover */
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.zoom-less {
+    transition: transform .2s;
+}
+
+.zoom-less:hover {
+    transform: scale(1.2);
+}
+
+.zoom-xs {
+    transition: transform .2s;
+}
+
+.zoom-xs:hover {
+    transform: scale(1.05);
+}
+
+.fade {
+    opacity: 1;
+}
+
+/* Underline effect transition on hoover of nav links */
+.underline {
+    transition: transform .2s;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+/* Remove underline from footer icon links on hover */
+footer a:link {
+    text-decoration: none;
+}
+
+/* For very small screens less than 400px reduce footer text size */
+@media screen and (max-width: 420px) {
+    
+  .footer-text {
+    font-size: 0.7rem;
+  }
+
+  .card-img-top {
+      width: 80%!important;
+  }
+}
