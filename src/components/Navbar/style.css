@@ -32,3 +32,7 @@ nav.navbar.navbar-default {
 .react-toggle-track-check, .react-toggle-track-x{
   top: 5px;
 }
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 0!important;
+}

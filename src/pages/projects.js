@@ -1,5 +1,14 @@
 const projects = [
     {
+        title: "Google Books Search - React",
+        url: "https://search-google-book-react.herokuapp.com/",
+        image: "/assets/img/project11.jpg",
+        repoUrl: "https://github.com/elogonme/google-books-search",
+        description: `React-based fullstack MERN app which lets user to query and display information about books. Users can save books 
+        to review or purchase later. This is fullstack MERN application. App is also using socket.io library to broadcast a notification whenever 
+        a user saves a book.`,
+    },
+    {
         title: "Window Shoppin'",
         url: "https://window-shoppin.herokuapp.com/",
         image: "/assets/img/project8.jpg",
