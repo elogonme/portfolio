@@ -1,5 +1,13 @@
 const projects = [
     {
+        title: "jobTrack",
+        url: "https://jobtrack-search.herokuapp.com/",
+        image: "/assets/img/project12.jpg",
+        repoUrl: "https://github.com/UofT-finalproject/JOBTrack",
+        description: `Simplify your search with jobTrack, keep track of applied jobs. jobTrack lets you search and save jobs in your profile. 
+        Keep track of jobs with your personal notes and file uploads. Built with React JS - full MERN application.`,
+    },
+    {
         title: "Google Books Search - React",
         url: "https://search-google-book-react.herokuapp.com/",
         image: "/assets/img/project11.jpg",

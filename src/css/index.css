@@ -15,7 +15,7 @@ body {
 
 /* Zoom effect transition on hoover */
 .zoom {
-    transition: transform .2s;
+    transition: transform .5s ease-in-out;
 }
 
 .zoom:hover {
@@ -23,7 +23,7 @@ body {
 }
 
 .zoom-less {
-    transition: all 0.50s linear;
+    transition: all 0.5s ease-in-out;
 }
 
 .zoom-less:hover {
@@ -31,7 +31,7 @@ body {
 }
 
 .zoom-xs {
-    transition: transform .2s;
+    transition: transform .2s ease;
 }
 
 .zoom-xs:hover {
